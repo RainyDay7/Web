@@ -1,0 +1,100 @@
+
+.integral{
+    border:1.4px solid #000;
+    margin-left: 220px;
+    /*margin-right: 170px;*/
+    height:1250px;
+    width: 875px;
+    background-color: #fafaf8;
+    display: flex
+}
+.box{
+    font-size: 16px;
+    font-family: 楷体;
+    color: black;
+    margin-left: -24px;
+}
+.person{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 200px;
+    height: 0px;
+    border: 20px solid #223180;
+    border-radius: 60px;
+}
+
+
+.circle{
+    width: 30px;
+    height:30px;
+    border: 1px solid #223180;
+    border-radius:50%;
+}
+
+.title2{
+    font-size: 22px;
+    font-family: 楷体;
+    color: white;
+}
+.title3{
+    font-size: 20px;
+    font-family: 楷体;
+    text-align: center;
+    color: black
+}
+.div1,.div2{
+
+}
+.li{
+    line-height: 30px;
+}
+.integral{
+    border:1.4px solid #000;
+    margin-left: 220px;
+    /*margin-right: 170px;*/
+    height:1250px;
+    width: 875px;
+    background-color: #fafaf8;
+    display: flex
+}
+.box{
+    font-size: 16px;
+    font-family: 楷体;
+    color: black;
+    margin-left: -24px;
+}
+.person{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 200px;
+    height: 0px;
+    border: 20px solid #223180;
+    border-radius: 60px;
+}
+
+
+.circle{
+    width: 30px;
+    height:30px;
+    border: 1px solid #223180;
+    border-radius:50%;
+}
+
+.title2{
+    font-size: 22px;
+    font-family: 楷体;
+    color: white;
+}
+.title3{
+    font-size: 20px;
+    font-family: 楷体;
+    text-align: center;
+    color: black
+}
+.div1,.div2{
+
+}
+.li{
+    line-height: 30px;
+}
+
