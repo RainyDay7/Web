@@ -1,0 +1,151 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.top-1, .top-2{
+    float: left;
+    width: 100px;
+}
+.top-3{
+    list-style-type: none;
+    list-style: none;
+    width: 20px;
+    float: left;
+}
+.top-right{
+    float: right;
+    width: 40%;
+}
+
+.top-left{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+}
+
+.biaoti-text{
+    float: left;
+    width: 30%;
+    height: 105px;
+}
+
+.bt{
+    color: #fd7e33;
+    font-family: 华文新魏;
+    font-size: 40px;
+    padding-left: 8%;
+    height: 105px;
+}
+.kefu{
+    float: right;
+    color: #fd7e33;
+    font-family: 华文新魏;
+    font-size: 20px;
+    padding:2%;
+    width:30%;
+    text-align:center;
+}
+
+body {
+    font-family: tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #737373;
+}
+.cart-panel{
+    display:block;
+}
+.cart-panel .order-title li.product {
+    width: 432px;
+}
+.cart-panel .order-title li.product {
+    width: 400px;
+}
+.cart-panel .order-title li {
+    font-family: tahoma, arial, 'Hiragino Sans GB', '\5FAE\8F6F\96C5\9ED1', sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    float: left;
+    padding: 10px 0;
+    margin-left: 20px;
+}
+.cart-panel .order-title {
+    list-style: none;
+}
+.cart-panel {
+    margin-bottom: 20px;
+    border: 1px solid #d9d9d9;
+    width: 990px;
+    margin-left: 15%;
+}
+.t1{
+    height:180px;
+}
+.cart-panel .hd {
+    margin: 0;
+    padding: 0 20px;
+    list-style: none;
+    background-color: #ebebeb;
+}
+
+.cart-panel .order-title li.market-price, .cart-panel .order-title li.order-price, .cart-panel .order-title li.num, .cart-panel .order-title li.operate {
+    width: 120px;
+}
+
+.cart-flow .container {
+    width: 1400px;
+}
+.container1{
+    width: 990px;
+}
+
+.cart-panel .order-list .selecter {
+    width: 36px;
+    height: 88px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.cart-panel .order-list .selecter .icon-select {
+    width: 20px;
+    height: 20px;
+    margin-top: 34px;
+}
+
+.cart-panel .order-list li.img-box, .cart-panel .order-list .promo-item .img-box {
+    width: 100px;
+}
+a {
+    color: #737373;
+    text-decoration: none;
+}
+a {
+    background-color: white;
+}
+.cart-panel .order-list li {
+    line-height: 20px;
+}
+.img-box{
+    width: 150px;
+    margin-left: 15px;
+}
+
+.order-list li.order-price{
+    width: 120px;
+    padding: 0;
+    line-height: 88px;
+}
+.cart-panel .order-list li.num{
+    width: 120px;
+    margin: 32px 0;
+}
+
+
+.cart-panel .order-list li {
+    line-height: 20px;
+    display: inline-block;
+    float: left;
+}
+.img{
+    width: 100%;}

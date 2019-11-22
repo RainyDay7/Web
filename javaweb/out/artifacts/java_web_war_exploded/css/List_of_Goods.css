@@ -1,0 +1,47 @@
+a.Goods_introduction:link {
+    color:black;
+}
+a.Goods_introduction:visited {
+    color:red;
+}
+a.Goods_introduction:hover {
+    color:#0077b3;
+}
+a.Goods_introduction:active {
+    color:purple;
+}
+.top{
+    width: 100%;
+    height: 260px;
+}
+.bottom{
+    width: 100%;
+    height: 260px;
+    float: left;
+}
+.picture{
+    align-items:center;
+    justify-content:center;
+    padding: 10px;
+    width: 200px;
+    height: 190px;
+    display: inline-block;
+}
+.inintroduction{
+    width: 40px;
+    display: inline-block;
+    background-color: #0077b3;
+}
+html,body{height: 100%;width: 100%;}
+
+.back1{
+    width: 25%;
+    float: left;
+    vertical-align:middle;
+    display:table-cell;
+    text-align:center;
+}
+
+
+
+

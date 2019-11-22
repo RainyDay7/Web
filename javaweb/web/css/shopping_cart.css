@@ -1,0 +1,138 @@
+body {
+    font-family: tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #737373;
+}
+.top-1, .top-2{
+    float: left;
+    width: 100px;
+}
+.top-3{
+    list-style-type: none;
+    list-style: none;
+    width: 20px;
+    float: left;
+}
+.top-right{
+    float: right;
+    width: 40%;
+}
+
+.top-left{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+}
+
+.biaoti-text{
+    float: left;
+    width: 30%;
+    height: 105px;
+}
+
+.bt{
+    color: #fd7e33;
+    font-family: 华文新魏;
+    font-size: 40px;
+    padding-left: 8%;
+    height: 105px;
+}
+.kefu{
+    float: right;
+    color: #fd7e33;
+    font-family: 华文新魏;
+    font-size: 20px;
+    padding:2%;
+    width:30%;
+    text-align:center;
+}
+
+
+.cart-flow .container {
+    width: 1400px;
+}
+.container{
+    width: 1400px;
+    height: 50px;
+    --border: #7cfd80 1px solid;
+}
+
+.container1{
+    width: 1400px;
+    --border: #6cc8fd 1px solid;
+    --border: #5d5d5d 1px solid;
+}
+
+.cart-panel{
+    display:block;
+    background: #ebebeb;
+}
+.order-title{
+    width: 1300px;
+    height: 50px;
+    padding:0px;
+}
+.cart-panel .order-title li {
+    font-family: tahoma, arial, 'Hiragino Sans GB', '\5FAE\8F6F\96C5\9ED1', sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    float: left;
+    padding: 10px 0;
+    margin-left: 16px;
+    --border: #fd5552 1px solid;
+    text-align: center;
+}
+#top-container{
+    width:1500px;
+    height: 50px;
+    --border: #5d5d5d 1px solid;
+}
+.t1{
+    height:92px;
+   --border: #5d5d5d 1px solid;
+}
+.hd{
+    height: 50px;
+    width:1150px;
+}
+.img{
+    width:125px;
+    height:125px;
+}
+.bd li{
+    display: inline-block;
+    margin-right: 18px;
+    vertical-align: middle;
+}
+.kuang{
+    width: 70px;
+}
+.bd ul{
+    border-bottom: #5d5d5d 1px solid;
+}
+.bd ol{
+    text-align: right;
+    margin-right: 50px;
+}
+.bd{
+    border: #5d5d5d 1px solid;
+}
+
+
+.jiesuan {
+    font-family: tahoma, arial, 'Hiragino Sans GB', '\5FAE\8F6F\96C5\9ED1', sans-serif;
+    font-weight: bold;
+    float: right;
+    width: 100px;
+    height: 27px;
+    color: #ffffff;
+    background-color: #ff6a00;
+    border-color: #ff6a00;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    text-transform: none;
+    text-align: center;
+}

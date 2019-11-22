@@ -1,0 +1,45 @@
+.order-title li {
+    font-family: tahoma, arial, 'Hiragino Sans GB', '\5FAE\8F6F\96C5\9ED1', sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    float: left;
+    padding: 10px 0;
+    margin-left: 20px;
+    --border: #fd5552 1px solid;
+    text-align: center;
+}
+
+.products li {
+    font-family: tahoma, arial, 'Hiragino Sans GB', '\5FAE\8F6F\96C5\9ED1', sans-serif;
+    /*font-weight: bold;*/
+    display: inline-block;
+    /*float: left;*/
+    padding: 10px 0;
+    margin-left: 20px;
+    /*border: #747f80 1px solid;*/
+    /*text-align: center;*/
+    vertical-align: middle;
+    list-style: none;
+    height: 13px;
+    white-space:nowrap;     /*强制不换行*/
+    overflow:hidden;           /*自动隐藏文字*/
+    text-overflow: ellipsis;    /*文字隐藏后添加省略号*/
+}
+.desc{
+    white-space:nowrap;     /*强制不换行*/
+    overflow:hidden;           /*自动隐藏文字*/
+    text-overflow: ellipsis;    /*文字隐藏后添加省略号*/
+    display: inline-block;
+    width:150px;
+    word-break: keep-all;
+}
+.desc:hover{
+    overflow: visible;
+}
+.products{list-style: none;
+    margin-top: 0px;
+    height: 70px;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 30px;}
+

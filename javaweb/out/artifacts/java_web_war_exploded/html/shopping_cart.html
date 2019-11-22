@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购物车</title>
+    <link href="../css/shopping_cart.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="shopping_cart"  style="background: #f9eae7">
+<div class="site-naw" >
+    <!--顶部导航-->
+    <div id="top-container" style="border-bottom: #f2f2f2">
+        <div class="container">
+            <ul class="top-left">
+                <li class="top-1" style="width: 70px">
+                    <a href="../index.jsp" target="_blank">首页</a>
+                </li>
+                <li class="top-1">
+                    <a href="" target="_blank">username</a>
+                </li>
+                <li class="top-1">
+                    <a href="">退出</a>
+                </li>
+            </ul>
+            <ul class="top-right">
+                <li class="top-3">|</li>
+                <li class="top-2"><a href="" >订单查询</a></li>
+                <li class="top-3">|</li>
+                <li class="top-2"><a href="">客户服务</a> </li>
+                <li class="top-3">|</li>
+                <li class="top-2"><a href="">购物车</a> </li>
+                <li class="top-3">|</li>
+                <li class="top-2" style="width: 130px">买猫咪的猫咪网站</li>
+            </ul>
+        </div>
+    </div>
+    <!--头部导航-->
+    <div class="t1" style="width:1400px;">
+        <div class="biaoti-text">
+            <h1><a ><span class="bt">maomi.com猫咪网站</span></a></h1>
+        </div>
+        <div>
+            <h1><a ><span class="kefu">在线客服</span></a></h1>
+        </div>
+    </div>
+    <div class="container1" style="margin-left: 120px">
+        <!--订单列表-->
+        <div class="cart-panel" style="height: 50px; width: 1300px">
+
+                <ul class="order-title">
+                    <li class="selecter"></li>
+                    <li class="product-img" style="width: 150px">商品图片</li>
+                    <li class="product-desc" style="width: 298px">商品信息</li>
+                    <li class="price-one" style="width: 150px">单价</li>
+                    <li class="num" style="width: 150px">数量</li>
+                    <li class="market-price" style="width: 150px">小计</li>
+                    <li class="operate" style="width: 150px">操作</li>
+                </ul>
+
+        </div>
+        <div class="bd" style="width: 1300px; ">
+            <ul>
+                <input tabindex="7" type="checkbox" class="quan" value="1" name="clause" style="width: 15px;height: 15px;cursor: pointer;">
+                <li style="margin-left: 35px ;width: 135px"><img src="../img_db/10.jpg" class="img"></li>
+                <li style=" width: 290px; text-align: center">波斯猫</li>
+                <li>¥<input type="text" name="price" value="21.90" class="kuang" style="width: 100px"> </li>
+                <li style="width: 140px; margin-left:40px"><input type="button" name="minus" value="-" onclick="minus(0);">
+                    <input type="text" name="amount" value="1" class="kuang">
+                    <input type="button" name="plus" value="+" onclick="plus(0);"></li>
+                <li  style="width: 130px;text-align: center" id="price0" class="prione" >21.90</li>
+                <li style=" text-align: center;width: 180px;"><p  onclick="collection();">移入收藏</p><p>删除</p></li>
+            </ul>
+            <ul>
+                <input tabindex="7" type="checkbox" id="class" value="1" name="clause" style="width: 15px;height: 15px;cursor: pointer;">
+                <li style="margin-left: 35px; width: 135px"><img src="../img_db/11.jpg" class="img"></li>
+                <li style=" width: 290px; text-align: center">猫猫太可爱了怎么办</li>
+                <li>¥<input type="text" name="price" value="24.00" class="kuang"style="width: 100px"> </li>
+                <li style="width: 140px; margin-left:40px"><input type="button" name="minus" value="-" onclick="minus(1);">
+                    <input type="text" name="amount" value="1" class="kuang">
+                    <input type="button" name="plus" value="+" onclick="plus(1);"></li>
+                <li  style="width: 130px; text-align: center" id="price1"  class="prione">24.00</li>
+                <li style=" text-align: center;width: 180px;"><p  onclick="collection();">移入收藏</p><p>删除</p></li>
+            </ul>
+            <ol>
+                <li id="totalPrice">商品总计：<span id="ttprice"></span></li>
+                <li style="border: #fd7e33 1px"><a href="" ><span class="jiesuan">结 算</span></a></li>
+            </ol>
+        </div>
+    </div>
+</div>
+<%--<button onclick="show()" >触发点击事件</button>--%>
+<script>
+    function minus(num) {
+        var amounts=document.getElementByName("amount");
+        var count=amounts[num].value;
+        if(count<1) amounts[num].value=1;
+        else {amounts[num].value-=1;}
+        oneCount(num);
+        computeAll();
+    }
+    function plus(num) {
+        var amounts=document.getElementsByName(amount);
+        var count=amounts[num].value;
+        amounts[num].value = parseInt(count);//转换的作用是防止+号进行字符串拼接
+        oneCount(num);
+        computeAll();
+    }
+    function oneCount(num) {
+        var prices = document.getElementsByName("price");
+        var price = prices[num].value;
+        var amounts = document.getElementsByName("amount");
+        var sum = price*count;
+        sum=sum.toFixed(2);
+        var id = "price"+num;
+        document.getElementById(id).innerHTML= sum;
+    }
+    function computeAll() {
+        var pris = document.getElementsByClassName("prione");//prione是每件商品的总价
+        var sum=0;
+        for(var i=0; i<pris.length; i++){
+            sum+=parseFloat(pris[i].innerHTML);
+        }
+        document.getElementById("ttprice").innerHTML = sum;
+    }
+</script>
+</body>
+</html>

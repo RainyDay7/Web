@@ -1,0 +1,111 @@
+html,body{height: 100%;width: 100%;}
+body{
+    background: #f9eae7;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    opacity:1;
+}
+.top{
+    width: 100%;
+    height: 319px;
+}
+.box ul {
+    list-style-type: none;
+    margin:0px;
+    padding:0px;
+}
+.box li {
+    font-size: 20px;
+    margin:10px;
+    padding:5px;
+    float:left;
+    width:150px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+.small-img{
+    display: block;
+    align-items:center;
+}
+.small-img ul {
+    margin-left: 8%;
+    list-style-type: none;
+    display:inline;
+}
+.small-img li{
+    margin: 10px;
+    display: inline-block;
+}
+.image-title{
+    width: 80%;
+    height: 480px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.big-img{
+    width: 35%;
+    float: left;
+}
+.info-box{
+    width: 50%;
+    float: left;
+}
+.m{
+    width: 60px;
+    height: 90px;
+}
+.p1{
+    color: black;
+    font-family:微软雅黑;
+    font-size: 28px;
+}
+.p2{
+    color: red;
+    font-family:微软雅黑;
+    font-size: 28px;
+}
+
+
+.buyNow{
+    text-align: center;
+    background-color: red;
+    float: left;
+    border:1px solid blue;
+    width: 150px;
+    height: 60px;
+    font-size: 26px;
+    color: white;
+    margin-top: 28px;
+}
+.buyLater{
+    margin-left: 20px;
+    text-align: center;
+    float: left;
+    border:1px solid #5d5d5d;
+    width: 150px;
+    height: 60px;
+    font-size: 26px;
+    margin-top: 28px;
+}
+.b1{
+
+    font-family: 微软雅黑;
+    color: white;
+    text-decoration : none;
+}
+.b2{
+    font-family: 微软雅黑;
+    color: black;
+    text-decoration : none;
+}
+.input1{
+    width: 40px;
+    height: 20px;
+}
+.bottom{
+    width: 100%;
+    height: 260px;
+}
+
+

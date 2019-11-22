@@ -1,0 +1,82 @@
+#admin_box {
+    width: 770px;
+    height: 530px;
+    border-top: 1px solid #fff;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background: #fff;
+    border-radius: 10px;
+    margin-top: 80px;
+    margin-bottom: 47px;
+}
+
+#admin_box #Member_join {
+    width: 100%;
+    height: 34px;
+    --border: 1px solid red;
+    line-height: 34px;
+    text-align: center;
+    color: #fd871d;
+    font-size: 34px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+#join_box .form_box {
+    width: 550px;
+    height: 38px;
+    border: 1px solid red;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    line-height: 38px;
+    margin-bottom: 18px;
+    margin-left: 160px;
+}
+
+#join_box .span1 {
+    color: #333333;
+    font-size: 18px;
+    --float: left;
+
+}
+
+#admin_box .input1 {
+    width: 337px;
+    height: 36px;
+    outline: none;
+    border: 1px solid #333;
+    border-radius: 8px;
+    --float: left;
+    text-indent: 15px;
+    color: #333;
+    margin-top: 20px;
+}
+
+.cen_box{
+    text-align: center;
+}
+
+#admin_box .input2 {
+    width: 166px;
+    height: 43px;
+    /*border: 1px solid red;*/
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-top: 40px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background: #fd871d;
+    border-radius: 10px;
+    cursor: pointer;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+#submit_form_last{
+    text-align: center;
+}

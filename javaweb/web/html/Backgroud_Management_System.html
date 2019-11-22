@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>猫咪网站后台管理系统</title>
+    <link href="../css/Backgroud_Management_System.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="top" style="width: 1400px;height: 100px"></div>
+<div class="container" style="border: #5d5d5d 1px solid;text-align: center;">
+<div class="bt" style="height: 50px; width: 1300px">
+
+    <ul class="order-title">
+
+        <li class="pid" style="width: 150px">商品编号</li>
+        <li class="cid" style="width: 150px">商品分类</li>
+        <li class="pname" style="width: 150px">商品名称</li>
+        <li class="price-one" style="width: 150px">商品单价</li>
+        <li class="product-img" style="width: 150px">商品图片</li>
+        <li class="product-desc" style="width: 150px">商品信息</li>
+        <li class="operate" style="width: 150px">操作</li>
+    </ul>
+
+</div>
+</div>
+        <div>
+            <ul class="products">
+                <li class="pid1" style="width: 150px">${pro.pid}</li>
+                <li class="cid1" style="width: 150px">${pro.cid}</li>
+                <li class="pname1" style="width: 150px">${pro.pname}</li>
+                <li class="price-one" style="width: 150px">${pro.price}</li>
+                <li class="product-img" style="width: 150px">${pro.imgurl}</li>
+                <li class="product-desc" style="width: 150px">${pro.pdesc}</li>
+                <li class="operate" style="width: 150px">操作</li>
+            </ul>
+         </div>
+
+</body>
+</html>

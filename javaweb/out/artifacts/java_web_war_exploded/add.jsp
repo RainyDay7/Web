@@ -1,0 +1,42 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: 17646
+  Date: 2019/7/3
+  Time: 23:17
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link type="text/css" href="css/add.css" rel="stylesheet">
+</head>
+<body style="background: url('img/3.jpg');background-repeat:no-repeat;background-size:cover;   ">
+<div id="join_box" style="border: #eee solid 3px;opacity: 0.8;">
+    <div id="Member_join">用户注册</div>
+    <div id="regForm" style="text-align: center">
+        <form action="login.do?key=2" method="post">
+            <span class="span1">用户昵称：</span>
+            <input class="input1" tabindex="1" type="text" onblur="cheackusername()" name="username" id="username" placeholder="请输入用户昵称 ，3~12字" autocomplete="off">
+            <br>
+            <span class="span1">密　码　：</span>
+            <input class="input1" tabindex="2" type="password" onblur="cheackpassword()" name="password" id="password" placeholder="请输入密码，字母开头6~16字" autocomplete="new-password">
+            <br>
+            <span class="span1">真实姓名：</span>
+            <input class="input1" tabindex="3" type="text" onblur="cheackname()" name="name" id="name" placeholder="请输入姓名" autocomplete="off">
+
+            <br>
+            <span class="span1">电子邮件：</span>
+            <input class="input1" tabindex="5" type="text" onblur="checkEmail()" name="Email" id="Email" placeholder="请输入邮箱" autocomplete="off">
+            <br>
+            <span class="span1">联系电话：</span>
+            <input class="input1" tabindex="4" type="text" onblur="cheackPhonenumber()" name="Phonenumber" id="Phonenumber" placeholder="请输入联系电话" autocomplete="off" >
+            <br>
+            <input class="input2" type="submit" value="提交申请" style="background:#79c2ed;color: white; font-size: 20px; border: 0px;outline:none;cursor: pointer;"/>
+        </form>
+    </div>
+</div>
+</body>
+</html>

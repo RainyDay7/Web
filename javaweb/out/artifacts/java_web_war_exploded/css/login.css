@@ -1,0 +1,119 @@
+.login-top{
+    width: 100%;
+
+}
+.left{
+    width: 38%;
+    float: left;
+
+}
+.right{
+    width: 37%;
+    float: right;
+}
+.left-img{
+    float: left;
+}
+.right-img{
+    float: right;
+}
+.cneter{
+    float: left;
+}
+.input1{
+    width: 270px;
+    height: 30px;
+    margin: 15px;
+}
+.cneter{
+    height: 374px;
+    text-align:center;
+}
+.center-table{
+margin-top: 70px;
+}
+
+.zhanghu{
+    font-size: 25px;
+    font-family: 黑体;
+}
+.shop-top-left{
+    width: 40%;
+    float: left;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.shop-top-right{
+    width: 50%;
+    float: right;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.shop-top-right ul {
+    list-style-type: none;
+    margin:0px;
+    padding:0px;
+}
+.shop-top-right li {
+    font-size: 18px;
+    margin:10px;
+    padding:5px;
+    display: inline;
+    width:150px;
+    margin-bottom: 20px;
+}
+.shop-top-left ul {
+    list-style-type: none;
+    margin:0px;
+    padding:0px;
+}
+.shop-top-left li {
+    font-size: 18px;
+    margin:10px;
+    padding:5px;
+    display: inline;
+    width:150px;
+    margin-bottom: 20px;
+
+}
+.login-top{
+    ;
+}
+.l1,.l2{
+    text-decoration : none;
+    color: black;
+}
+.top-left{
+    margin-left: 10px;
+    width: 100px;
+    height: 70px;
+    float: left;
+    text-align: center;
+}
+.top-left-img{
+    width: 66px;
+    float: left;
+    margin-top: 9px;
+    margin-left: 31px;
+}
+.js-img{
+    --float: left;
+    width: 98px;
+    height: 98px;
+    background-color: #ffffff;
+    border: solid 1px #23a0d8;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 33%;
+    margin-top: 50px;
+}
+
+.i{
+    width: 25%;
+    height: 200px;
+    float: left;
+}
+.t{
+    text-align: center;
+    margin-top: 20px;
+}
